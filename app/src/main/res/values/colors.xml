@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC407A</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#0D47A1</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorProfile">#587d84</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextColorForStatus">#a59e99</color>
+    <color name="status_time">#2d2d2d</color>
+    <color name="pageBackground">#EEEEEE</color>
+
+    <color name="senderColor">#9df658</color>
+    <color name="reciverColor">#65f2a7</color>
+    <color name="notification_color">#c9dbef</color>
+    <color name="colorGrey">#72A59E99</color>
+</resources>
+
+

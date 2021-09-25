@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@color/pageBackground"
+    android:id="@+id/linearlayout_stores_dscription"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView_storeImage"
+        android:src="@drawable/local1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Store_name"
+
+        android:text="Baggugan market"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Store_address"
+        android:text="D- 13, near Khan plaza jagat Faram"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Store_Description"
+       android:text="hey"
+
+        android:autoLink="web"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingRight="20dp"
+        android:id="@+id/button_see_offer"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="See Offers"/>
+
+</LinearLayout>

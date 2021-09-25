@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBackground"
+    android:orientation="vertical"
+    tools:context=".activities.UpdateWhatClassTeacherStudied">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Add Subject in your Profile"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinner_college"
+        android:theme="@style/SpinnerThemeLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colleges_name"
+        android:layout_marginTop="20sp"
+        />
+    <Spinner
+        android:id="@+id/spinner_branch"
+        android:theme="@style/SpinnerThemeLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colleges_branch"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/colleges_course"
+        android:theme="@style/SpinnerThemeLight" />
+    <Spinner
+        android:id="@+id/spinner_semester"
+        android:theme="@style/SpinnerThemeLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colleges_semester"
+        android:layout_marginTop="10dp"
+        />
+    <Spinner
+        android:id="@+id/spinner_section"
+        android:theme="@style/SpinnerThemeLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colleges_section"
+        android:layout_marginTop="10dp"
+        />
+<Spinner
+        android:id="@+id/spinner_subject"
+        android:theme="@style/SpinnerThemeLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colleges_subject"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_upload_detial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add_subject_in_your_profile"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/edit_text_success"
+        android:visibility="gone"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:text="@string/succesfully_added_class_in_your_teaching_profile"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_add_new_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Add a new class"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

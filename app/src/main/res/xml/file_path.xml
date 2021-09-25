@@ -1,0 +1,9 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="my_images"
+
+        path="." />
+    <!--<files-path-->
+    <!--name="external_files"-->
+    <!--path="Android/data/com.rwn.rwnstudy/files/Pictures" />-->
+</paths>

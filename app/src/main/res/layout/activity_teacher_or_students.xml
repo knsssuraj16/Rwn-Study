@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBackground"
+    tools:context=".activities.TeacherOrStudentsActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you"
+        android:layout_centerHorizontal="true"
+        android:textSize="26sp"
+        android:maxLines="1"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_above="@+id/button_teacher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:id="@+id/textview_abobe"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/teacher"
+        android:layout_margin="20dp"
+        android:id="@+id/button_teacher"
+        android:layout_above="@+id/textview_abobe"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_student"
+        android:text="@string/student"
+
+        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textview_abobe"/>
+
+</RelativeLayout>

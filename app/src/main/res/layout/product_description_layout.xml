@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@color/pageBackground"
+    android:id="@+id/linearlayout_stores_dscription"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/imageView_productImage"
+        android:src="@drawable/local1"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_product_name"
+            android:text="Lenovo Ideapad 110"
+            android:textSize="20sp"
+
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorBlack"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:text="Price : "
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxLines="10"
+            android:id="@+id/textView_price"
+            android:layout_height="wrap_content"
+            android:text="10000 Rs"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:text="Discount: "
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:text="2000"
+            android:id="@+id/textView_Discount"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:maxLines="10"
+
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="Real Price : "
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:text="12000 Rs"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        android:visibility="gone"
+        android:id="@+id/textViewMRP"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginStart="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_product_Description"
+        android:text="hey"
+
+        android:visibility="gone"
+        android:autoLink="web"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="20dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView_others"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_Store_address"
+        android:text="*Price can be change any time on checkout page because offer is available when we publish this offer post. make sure don't miss our offer checkout the app time to time."
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingRight="20dp"
+        android:id="@+id/button_Buy_now"
+        android:textStyle="bold"
+
+        android:visibility="gone"
+
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="See Offer Details"/>
+
+</LinearLayout>

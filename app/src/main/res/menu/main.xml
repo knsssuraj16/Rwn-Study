@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notification_frnd_req"
+        android:orderInCategory="100"
+        android:title="Friend Request"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notification_action"
+        android:orderInCategory="100"
+        android:title="notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notification_more"
+        android:title="Download latest Apk Version"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notification_playstore"
+        android:title="Check For Update(PlayStore)"
+        app:showAsAction="never" />
+
+</menu>

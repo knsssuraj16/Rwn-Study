@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:background="@color/colorWhite">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/profile"
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/circularView_FrndReq_profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:gravity="start"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/textView_frndReq_alluserProfile_Fullname"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Confirm"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+
+                android:background="@color/colorPrimary"
+                android:id="@+id/button_frndReqconfirm"
+                android:textColor="@android:color/background_light"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Decline"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="3dp"
+
+                android:background="@color/colorAccent"
+                android:id="@+id/button_frndReqDecline"
+                android:textColor="@android:color/background_light"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

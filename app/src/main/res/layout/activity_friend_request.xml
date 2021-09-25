@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBackground"
+    tools:context=".activities.FriendRequestActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Friend Request "
+        android:id="@+id/textView_send_friend_request"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend Requests"
+        android:id="@+id/textView_friendRequest"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView_send_friend_request"
+        android:layout_margin="5dp"
+        android:textSize="17sp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:background="@color/pageBackground"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView_FriendRequest"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView_friendRequest" />
+
+
+
+</RelativeLayout>

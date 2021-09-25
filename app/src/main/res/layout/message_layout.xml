@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:src="@drawable/profile"-->
+        <!--android:id="@+id/circularView_chat_message_profile"/>-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/frame_layout_reciever_message"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:minWidth="100dp"
+        android:gravity="center"
+        android:id="@+id/textView_chat_RecieverMessage"
+        android:background="@drawable/reciever_message_background"
+        android:text="RecieverMessage"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        android:paddingBottom="20dp"
+        tools:ignore="UnknownId" />
+        <TextView
+            android:id="@+id/textview_time_reciever_text"
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#C0C0C0"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="bottom"
+            android:text="07:12 AM"/>
+    </FrameLayout>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_toRightOf="@+id/circularView_chat_message_profile"-->
+        <!--android:layout_below="@+id/textView_chat_RecieverMessage"-->
+        <!--android:src="@drawable/profile"-->
+        <!--android:visibility=""-->
+
+        <!--android:padding="20dp"-->
+        <!--android:background="@drawable/reciever_message_background"-->
+        <!--android:layout_margin="4dp"-->
+        <!--android:id="@+id/imageView_recieverMessage"-->
+        <!--android:layout_toEndOf="@+id/circularView_chat_message_profile"-->
+        <!--tools:ignore="UnknownId" />-->
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:id="@+id/frame_layout_reciever_image"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingTop="15dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="4dp"
+        android:paddingBottom="25dp"
+        android:id="@+id/imageView_imageReciever"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/reciever_message_background"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/progress"
+        android:paddingStart="4dp"
+        android:paddingEnd="5dp" >
+
+</ImageView>
+<TextView
+android:id="@+id/textview_time_reciver"
+android:layout_width="wrap_content"
+android:paddingLeft="30dp"
+android:visibility="visible"
+android:layout_height="wrap_content"
+android:gravity="end"
+    android:textStyle="bold"
+    android:textSize="10sp"
+    android:textColor="#C0C0C0"
+android:layout_marginBottom="6dp"
+android:layout_gravity="start|bottom"
+android:text="07:12 AM"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+
+        android:visibility="gone"
+        android:id="@+id/frame_layout_sender_message"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView_chat_senderMessage"
+        android:background="@drawable/sender_message_text_background"
+        android:text="hii"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:minWidth="100dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        />
+
+        <TextView
+            android:id="@+id/textview_time_sender_text"
+            android:layout_width="wrap_content"
+            android:paddingRight="20dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#696969"
+
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="end|bottom"
+            android:text="07:12 AM"
+            android:paddingEnd="30dp" />
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/frame_layout_sender_image"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:id="@+id/imageView_imageSender"
+        android:layout_marginTop="2dp"
+
+        android:layout_gravity="end"
+        android:src="@drawable/progress"
+        android:paddingTop="15dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="25dp"
+        android:background="@drawable/sender_message_text_background"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingStart="5dp"
+        android:paddingEnd="4dp">
+
+    </ImageView>
+        <TextView
+            android:id="@+id/textview_time_sender"
+            android:layout_width="wrap_content"
+            android:paddingRight="30dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#696969"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="end|bottom"
+            android:text="07:12 AM"/>
+    </FrameLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textviewSeen_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seen"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="end"
+        android:textSize="11sp" />
+
+
+
+
+</LinearLayout>

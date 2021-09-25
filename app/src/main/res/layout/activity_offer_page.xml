@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageBackground"
+    android:orientation="vertical"
+    tools:context=".activities.OfferPageActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorWhite"
+        android:id="@+id/framelayout_online"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:src="@drawable/flip" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="end"
+            android:layout_height="70dp"
+            android:src="@drawable/amazone" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="bottom|center"
+            android:layout_height="70dp"
+            android:src="@drawable/myntra" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@color/colorPrimaryDark"
+            android:text="Online Store offer's"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="@color/colorWhite"
+        android:layout_margin="5dp"
+        android:id="@+id/framelayout_offline"
+        tools:ignore="Suspicious0dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_gravity="start"
+            android:layout_height="70dp"
+            android:src="@drawable/cake" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="end"
+            android:layout_height="70dp"
+            android:src="@drawable/local1" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="bottom|end"
+            android:layout_height="70dp"
+            android:src="@drawable/download" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="bottom|start"
+            android:layout_height="70dp"
+            android:src="@drawable/local" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@color/colorPrimaryDark"
+            android:text="Local Store offer's"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="@color/colorWhite"
+        android:layout_margin="5dp"
+        android:id="@+id/framelayout_others"
+        tools:ignore="Suspicious0dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_gravity="start"
+            android:layout_height="70dp"
+            android:src="@drawable/loots" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="end"
+            android:layout_height="70dp"
+            android:src="@drawable/loots2" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_gravity="bottom|end"
+            android:layout_height="70dp"
+            android:src="@drawable/loots3" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:background="@color/colorPrimaryDark"
+            android:text="Others offer's"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</LinearLayout>

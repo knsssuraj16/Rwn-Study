@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    public static final String FIREBASE_STORAGE_USER_PROFILE_PICTURE_NODE_NAME = "";
+    public static final String FIREBASE_USERS_NODE_NAME = "";
+    public static final String FIREBASE_USERS_NAME= "";
+    public static final String FIREBASE_USERS_PROFILE_IMAGE = "";
+    public static final String FIREBASE_USERS_COLLEGE_NAME = "";
+    public static final String FIREBASE_USERS_EMAIL_ID = "";
+    public static final String FIREBASE_USERS_DEPARTMENT = "";
+    public static final String FIREBASE_USER_TYPE= "";
+    public static final String FIREBASE_GENDER= "";
+    public static final String FIREBASE_DOB= "";
+    public static final String FIREBASE_MOBILE_NUMBER= "";
+    public static final String FIREBASE_ROLL_NUMBER= "";
+    public static final String FIREBASE_UID= "";
+    public static final String FIREBASE_COURSE= "";
+    public static final String FIREBASE_DATE= "";
+    public static final String FIREBASE_TIME= "JoiningTime";
+</resources>

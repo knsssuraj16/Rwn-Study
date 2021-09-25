@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".activities.ImageViewerActivity">
+
+    <ImageView
+        android:id="@+id/imageview_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="30dp"
+        android:background="@color/black_overlay"
+        android:src="@drawable/ic_file_download_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView_photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/profile" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:autoLink="web"
+            android:layout_height="wrap_content"
+            android:background="@color/status_time"
+            android:text="Hello this is for testing : https://www.google.com"
+            android:id="@+id/textView_descrption"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

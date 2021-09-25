@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1035482182219",
+    "firebase_url": "https://rwnstudy.firebaseio.com",
+    "project_id": "rwnstudy",
+    "storage_bucket": "rwnstudy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035482182219:android:c19f4c8a1a456858",
+        "android_client_info": {
+          "package_name": "com.rwn.rwncollegemanegementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035482182219-jrb0aee4g3903b01ftst07a2fhdmuung.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1zPSQLTUNMimcR2VTsRvHGwv0K14wcZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035482182219:android:cebe39fce8d99ceb",
+        "android_client_info": {
+          "package_name": "com.rwn.rwnstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035482182219-v8rp057vejgr0so7h8lmt2vmeiethodj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rwn.rwnstudy",
+            "certificate_hash": "1756393affc8ae1d3b0ba492367a0bcb0d4d7273"
+          }
+        },
+        {
+          "client_id": "1035482182219-jrb0aee4g3903b01ftst07a2fhdmuung.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1zPSQLTUNMimcR2VTsRvHGwv0K14wcZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035482182219-jrb0aee4g3903b01ftst07a2fhdmuung.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

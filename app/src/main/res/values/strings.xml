@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">RWN</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="are_you">***********Are you***********</string>
+    <string name="or">OR</string>
+    <string name="welcom_rwn">WELCOME TO RWN</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register">Register</string>
+    <string name="or_n_create_a_account">Or  Create a Account</string>
+    <string name="name">Name</string>
+    <string name="department">Department</string>
+    <string name="password_not_match">Password Not Matched</string>
+    <string name="fill_this">Fill this</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="enter_valid_email">Enter Valid Mail</string>
+    <string name="field_must_be_8">Field must be 8 Char</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="we_check_your_Credit">We Check Your Credits</string>
+    <string name="error_occourd">Error occured:</string>
+    <string name="please_update_goole_play_service">Please update Google play Service.</string>
+    <string name="uploading">Uploading</string>
+    <string name="Version_not_Supported_Please_contact_Customer_Care">Version not Supported Please contact Customer Care</string>
+    <string name="Your_Account_SuccesfullyCrearted">Your Account Succesfully Crearted</string>
+    <string name="Please_upload_Profile_Picture">Please upload Profile Picture</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="roll_number_if_having">Roll Number( if having )</string>
+    <string name="course">Course</string>
+    <string name="submit">Submit</string>
+    <string name="choose_section">choose section</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="Account_detail_update_succesfully">Account Detail Update Succesfully</string>
+    <string name="gender">Gender</string>
+    <string name="field_must_be_10">Field must be 10 Digits</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password ?</string>
+
+    <string-array name="colleges_name">
+        <item>IIMT College</item>
+
+
+    </string-array>
+    <string-array name="unit">
+            <item>Units
+            </item>
+    </string-array>
+
+    <string-array name="colleges_branch">
+        <item>College Department</item>
+    </string-array>
+
+    <string-array name="colleges_course">
+        <item>Course</item>
+    </string-array>
+
+    <string-array name="colleges_semester">
+        <item>Semester</item>
+    </string-array>
+
+
+    <string-array name="colleges_section">
+        <item>Section</item>
+    </string-array>
+
+    <string-array name="colleges_subject">
+        <item>Subject</item>
+    </string-array>
+
+
+    <string-array name="section">
+        <item>Section A</item>
+        <item>Section B</item>
+        <item>Section C</item>
+        <item>Section D</item>
+        <item>Section E</item>
+        <item>Section F</item>
+        <item>Section G</item>
+
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Databse node String -->
+
+    <string name="firebase_storage_profile_picture_node">UsersProfilePictures</string>
+    <string name="datbase_user_node">Users</string>
+
+    <!--Storage nodes String-->
+
+    <string name="storage_image">Images</string>
+    <!--for ad mob-->
+    <string name="admob_app_id">ca-app-pub-3419747624746104~4537061916</string>
+    <string name="banner_home_footer">ca-app-pub-3419747624746104/7274195452</string>
+    <string name="banner_personal_document_footer">ca-app-pub-3419747624746104/4975322839</string>
+    <string name="banner_subject_unit_document_footer">ca-app-pub-3419747624746104/7937362242</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+
+    <!--Users node's String-->
+    <string name="user_name">name</string>
+    <string name="user_profile_image">profileImage</string>
+    <string name="user_college_name">collegeName</string>
+    <string name="user_email_id">emailID</string>
+    <string name="user_department">department</string>
+    <string name="user_user_type">userType</string>
+    <string name="user_gender">gender</string>
+    <string name="user_date_of_birth">dateOfBirth</string>
+    <string name="user_mobile_number">mobileNumber</string>
+    <string name="user_roll_number">rollNumber</string>
+    <string name="user_uid">uid</string>
+    <string name="user_course">course</string>
+    <string name="user_joining_date">joiningDate</string>
+    <string name="user_joining_time">joiningTime</string>
+    <string name="user_addmision_number">admissionNumber</string>
+    <string name="user_section">section</string>
+
+
+    <!--anothhers-->
+    <string name="home">Home</string>
+    <string name="personal_docs">Personal Docs</string>
+    <string name="friend_s_docs">Friend\'s Docs</string>
+    <string name="your_friend_s">Your Friend\'s</string>
+    <string name="ask_for_docs">Ask For Docs</string>
+    <string name="log_out">Log out</string>
+    <string name="faculties_docs">Faculties Docs</string>
+    <string name="username">Username</string>
+    <string name="course_section">Course (section)</string>
+    <string name="addmission_number">Addmission number</string>
+    <string name="create_a_new_document">Create a new Document</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="decription">Decription</string>
+    <string name="personal_Document">Personal Documents</string>
+    <string name="teacher_subject">TeacherSubject</string>
+    <string name="unit">Unit</string>
+    <string name="teacher_uploded_document">DocumentLink</string>
+    <string name="roll_number">Roll number</string>
+    <string name="add_subject_in_your_profile">Add Subject in your Profile</string>
+    <string name="succesfully_added_class_in_your_teaching_profile">Succesfully Added class in your Teaching Profile</string>
+    <string name="update_subject">Update Subject</string>
+    <string name="user_subject">Subject</string>
+    <string name="user_semester">Semester</string>
+    <string name="subject_Code">SubjectCode</string>
+    <string name="subjects">Subjects</string>
+    <string name="my_uploaded_document_s_subjects">My uploaded Document\'s subjects</string>
+    <string name="they_peoples_have_authority_to_access_your_documents_long_press_to_removw_authority">They peoples have Authority to Access your Documents, long press to remove Authority.</string>
+    <string name="see_friend_request">See Friend Request</string>
+    <string name="your_friends">Your Friends</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_image_viewr">Document View</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner_unit_topic_footer">ca-app-pub-3419747624746104/6568440250</string>
+    <string name="banner_upload_document_footer">ca-app-pub-3419747624746104/9278240361</string>
+    <string name="banner_update_what_class_footer">ca-app-pub-3419747624746104/3611104427</string>
+    <string name="banner_your_friend_footer">ca-app-pub-3419747624746104/1364801761</string>
+    <string name="banner_friend_req_footer">ca-app-pub-3419747624746104/9235552926</string>
+    <string name="banner_ask_for_document_footer">ca-app-pub-3419747624746104/7219176941</string>
+    <string name="banner_open_class_footer">ca-app-pub-3419747624746104/5494908026</string>
+    <string name="banner_notification_shower_footer">ca-app-pub-3419747624746104/7557764896</string>
+    <string name="banner_notification_show_footer">ca-app-pub-3419747624746104/7637833551</string>
+
+
+</resources>
